@@ -1,21 +1,22 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
-* {
-  margin: 0;
-  padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+  margin:0;
+  padding:0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
-body {
+body{
   width: 100vw;
-  height: 100vh;
-  background: #1e1e1e;
+  height: auto;
+  background: #1E1E1E;
 }
-main {
+main{
   position: relative;
-  width: 1127px;
+  width:1127px;
   /* height: 4662px; */
   background: #ffffff;
   margin: 0 auto;
+  padding-top: 12px;
 }
 
 header {
@@ -25,11 +26,6 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-
-header img {
-  margin-left: 14px;
-}
-
 ul {
   display: flex;
   gap: 30px;
@@ -122,7 +118,7 @@ li {
   height: 52.5px;
   margin-left: 49px;
 }
-nav > header {
+nav > header{
   width: 100%;
   height: 100%;
   padding: 0px 30px;
@@ -133,20 +129,21 @@ nav > header {
   position: relative;
   z-index: 10000;
 }
-nav > header div.td_header_logo {
+nav > header div.td_header_logo{
   width: 186px;
   height: 35px;
+  
 }
-nav > header div.td_header_logo img {
-  width: 100%;
+nav > header div.td_header_logo img{
+  width:100%;
   height: 100%;
 }
-nav > header ul {
-  display: flex;
+nav > header ul{
+  display:flex;
   height: 100%;
-  width: 433px;
+  width:433px;
   justify-content: center;
-  gap: 30px;
+  gap:30px;
   align-items: center;
 }
 nav > header ul li {
@@ -163,55 +160,53 @@ nav > header ul li {
   line-height: 27px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #fcfcfc;
+  color: #FCFCFC;
 }
-nav > header ul li:last-child {
+nav > header ul li:last-child{
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 0px 10px;
   width: 125px;
-  background: #ed1c24;
+  background: #ED1C24;
   border-radius: 5px;
 }
-section.td_section1 {
+section.td_section1{
   margin-top: 20px;
   position: relative;
-  width: 100%;
+  width:100%;
   height: 717px;
   background: rgba(238, 230, 230, 0.5);
   backdrop-filter: blur(2px);
-  border-radius: 5px;
+  border-radius: 5px; 
   padding: 141px 0 82px 108px;
 }
-
-.image3 {
+.image3{
   position: absolute;
-  top: -100px;
-  right: 0;
+  top:-100px;
+  right:0;
 }
-.image4 {
+.image4{
   position: absolute;
-  right: 0;
-  top: -100px;
+  right:0;
+  top:-100px;
   z-index: -1;
 }
-.image5 {
+.image5{
   position: absolute;
   top: 117px;
   right: 30px;
-  border-radius: 50px;
 }
-section.td_section1 > div {
+section.td_section1 > div{
   height: 435px;
-  width: 450px;
+  width:450px;
 }
-section.td_section1 > div h1 {
+section.td_section1 > div h1{
   width: 326px;
   height: 230px;
   margin-bottom: 20px;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   line-height: 90%;
   font-weight: 700;
@@ -220,35 +215,35 @@ section.td_section1 > div h1 {
   text-transform: capitalize;
   color: #000000;
 }
-section.td_section1 > div p {
+section.td_section1 > div p{
   width: 356px;
   height: 185px;
   font-weight: 500;
   font-size: 24px;
   line-height: 36px;
   letter-spacing: 0.02em;
-  color: #000000;
+  color:#000000;
   margin-bottom: 19px;
 }
-section.td_section1 > input {
+section.td_section1 > input{
   width: 240px;
   height: 40px;
-  background: #fafbfc;
+  background: #FAFBFC;
   border: 2px solid #000000;
   border-radius: 3px;
-  padding: 10px 65px 10px 8px;
+  padding:10px 65px 10px 8px;
 }
-section.td_section1 > input::placeholder {
+section.td_section1 > input::placeholder{
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  color: #7a869a;
+  color: #7A869A;
 }
-section.td_section1 > button {
+section.td_section1 > button{
   padding: 9px auto;
   width: 137px;
   height: 38px;
-  background: #292d32;
+  background: #292D32;
   border-radius: 3px;
   margin-left: 18px;
   color: white;
@@ -572,3 +567,6 @@ footer ul {
 
 /* font-family: 'Inter', sans-serif;
 font-family: 'Poppins', sans-serif; */
+@media screen and (max-width:1700px){
+
+}
