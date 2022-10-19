@@ -31,7 +31,7 @@ header img {
 
 ul {
   display: flex;
-  justify-content: space-between;
+  gap:30px;
 }
 
 li {
