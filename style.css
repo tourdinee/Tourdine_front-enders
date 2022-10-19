@@ -13,7 +13,6 @@ body {
 main {
   position: relative;
   width: 1127px;
-  /* height: 4662px; */
   background: #ffffff;
   margin: 0 auto;
 }
@@ -32,7 +31,7 @@ header img {
 
 ul {
   display: flex;
-  gap: 30px;
+  justify-content: space-between;
 }
 
 li {
@@ -548,7 +547,7 @@ footer {
   margin-top: 50px;
   display: flex;
   justify-content: center;
-  gap: 32px;
+  gap:32px;
 }
 
 .social-media a {
