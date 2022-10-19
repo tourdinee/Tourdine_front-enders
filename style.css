@@ -12,7 +12,7 @@ body{
 }
 main{
   position: relative;
-  width: 51vw;/*1127px;*/
+  width:1127px;
   /* height: 4662px; */
   background: #ffffff;
   margin: 0 auto;
