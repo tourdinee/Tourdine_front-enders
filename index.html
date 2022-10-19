@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Tour Dine Coming soon Landing page</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tour Dine Coming soon Landing page</title>
+  </head>
+  <body>
     <main>
       <nav>
         <header class="td_header">
@@ -18,38 +18,57 @@
             <li>Home</li>
             <li>About Us</li>
             <li>Contact</li>
-            <li>Get Access</li>
+            <li class="get-access">Get Access</li>
           </ul>
         </header>
       </nav>
       <section class="td_section1">
-        <img class="image3" src="Images/Ellipse3.png" />
-        <img class="image4" src="Images/Ellipse4.png" />
-        <img class="image5" src="Images/iphone.png" />
+        <img src="Images/Ellipse4.png" alt="" class="bg rating_bg h2" />
+        <img src="Images/Ellipse3.png" alt="" class="bg rating_bg h1" />
         <div>
-          <h1>Let’s Help you Decide</h1>
-          <p>Tour Dine is a restaurant review platform being developed 
-            with the goal of bringing honest, experience based reviews to the public.</p>
+          <h1>Let’s Help you Decide.</h1>
+          <p>
+            Tour Dine is a restaurant review platform being developed with the
+            goal of bringing honest, experience based reviews to the public.
+          </p>
+          <form class="blk">
+            <input type="text" placeholder="Enter your Email Address" />
+            <button type="submit">Get Early Access</button>
+          </form>
         </div>
-        <input type="text" placeholder="Enter Your Email Address" />
-        <button type="submit">Get Access</button>
+        <img class="image5" src="Images/iphone.png" />
       </section>
-      <p>Features</p>
-      <img src="Images/Feature.png" alt="details of a restaurant" />
-      <p>Read & write reviews</p>
+      <div class="features">
+        <img src="Images/Vector3.png" alt="" class="bg features_bg f1" />
+        <img src="Images/Vector2.png" alt="" class="bg features_bg f2" />
+        <h3>Features</h3>
+        <div>
+          <img src="Images/Feature.png" alt="details of a restaurant" />
+          <p>Read & write reviews</p>
+        </div>
+      </div>
+
       <section class="td_section2">
+        <img src="Images/Ellipse_3.png" alt="" class="bg rating_bg r1" /><img
+          src="Images/Ellipse42.png"
+          alt=""
+          class="bg rating_bg r2"
+        />
+
         <h1>Rate your favorite restaurant</h1>
         <div class="rating-card">
-          <div class="card1">
+          <div class="card 1">
             <header><h3>Garden Chicken</h3></header>
             <div class="stars">
               <img src="Images/Star7.png" />
               <img src="Images/Star7.png" />
               <img src="Images/Star7.png" />
               <img src="Images/Star10.png" />
+              <img src="Images/Star10.png" />
+              <p>3/5</p>
             </div>
           </div>
-          <div class="card2">
+          <div class="card 2">
             <header><h3>Olive Garden</h3></header>
             <div class="stars">
               <img src="Images/Star7.png" />
@@ -57,9 +76,10 @@
               <img src="Images/Star7.png" />
               <img src="Images/Star7.png" />
               <img src="Images/Star10.png" />
+              <p>3/5</p>
             </div>
           </div>
-          <div class="card3">
+          <div class="card 3">
             <header><h3>KFC</h3></header>
             <div class="stars">
               <img src="Images/Star7.png" />
@@ -67,58 +87,61 @@
               <img src="Images/Star7.png" />
               <img src="Images/Star7.png" />
               <img src="Images/Star10.png" />
+              <p>3/5</p>
             </div>
           </div>
         </div>
       </section>
-      <img src="Images/Feature2.png" alt="Location of a resturant" />
-      <p>Locate Restaurants fast and easy</p>
+      <div class="iphone_container">
+        <img src="Images/Vector4.png" alt="" class="bg rating_bg l1" />
+        <img src="Images/Vector5.png" alt="" class="bg rating_bg l2" />
+
+        <img
+          class="iphone_location_img"
+          src="Images/Feature2.png"
+          alt="Location of a resturant"
+        />
+        <p class="locate_fast">Locate Restaurants fast and easy</p>
+      </div>
+
       <section class="td_section3">
         <div>
           <h3>COMING SOON</h3>
-          <div class="countdown">
-            <div class="day">24</div>
-            <div class="separator">
-              <div></div>
-              <div></div>
-            </div>
-            <div class="hour">07</div>
-            <div class="separator">
-              <div></div>
-              <div></div>
-            </div>
-            <div class="minute">59</div>
-            <div class="separator">
-              <div></div>
-              <div></div>
-            </div>
-            <div class="seconds">01</div>
-          </div> 
-          <div>
-            <input type="text" placeholder="Enter your Email Address" />
-            <button type="submit"> Get Early Access</button>
+          <div class="countdown-container">
+            <div class="countdown day">24</div>
+            <img class="colom" src="Images/colom_Vector.png" alt="" />
+
+            <div class="countdown hour">07</div>
+            <img class="colom" src="Images/colom_Vector.png" alt="" />
+            <div class="countdown minute">59</div>
+            <img class="colom" src="Images/colom_Vector.png" alt="" />
+            <div class="countdown seconds">01</div>
           </div>
+          <form>
+            <input type="text" placeholder="Enter your Email Address" />
+            <button type="submit">Get Early Access</button>
+          </form>
         </div>
       </section>
       <footer class="td_footer">
         <img src="Images/footerLogo.png" alt="tour dine logo at footer" />
         <div class="social-media">
-          <a href="#"><img src="Images/Vectorw2.png"/></a>
+          <a href="#"><img src="Images/Vectorw2.png" /></a>
           <a href="#"><img src="Images/Vectorf4.png" /></a>
           <a href="#"><img src="Images/Vectort2.png" /></a>
-          <a href="#"><img src="Images/Vectori2.png"</a>
+          <a href="#"><img src="Images/Vectori2.png" /></a>
         </div>
         <ul>
           <li>About</li>
           <li>Support</li>
           <li>Contact Us</li>
         </ul>
-        <div>
+        <div class="terms">
           <p>Terms and condition</p>
           <p>Privacy policy</p>
         </div>
       </footer>
     </main>
-    <script src="script.js"></script>
-</body>
+    <!-- <script src="script.js"></script> -->
+  </body>
 </html>
