@@ -7,12 +7,12 @@
 }
 body{
   width: 100vw;
-  height: 100vh;
+  height: auto;
   background: #1E1E1E;
 }
 main{
   position: relative;
-  width: 1127px;
+  width: 51vw;/*1127px;*/
   /* height: 4662px; */
   background: #ffffff;
   margin: 0 auto;
@@ -26,11 +26,6 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-
-header img {
-  margin-left: 14px;
-}
-
 ul {
   display: flex;
   gap: 30px;
@@ -572,3 +567,6 @@ footer ul {
 
 /* font-family: 'Inter', sans-serif;
 font-family: 'Poppins', sans-serif; */
+@media screen and (max-width:1700px){
+
+}
