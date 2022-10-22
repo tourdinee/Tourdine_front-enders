@@ -13,10 +13,8 @@ body {
 main {
   position: relative;
   width: 1127px;
-  /* height: 4662px; */
   background: #ffffff;
   margin: 0 auto;
-  padding-top: 12px;
 }
 
 header {
@@ -351,6 +349,10 @@ form {
   height: 38px;
 }
 
+.form {
+  visibility: hidden;
+}
+
 form button {
   display: flex;
   flex-direction: row;
@@ -367,7 +369,6 @@ form button {
   align-items: center;
   text-align: center;
   border: none;
-  visibility: hidden;
 }
 
 button:hover {
@@ -381,7 +382,6 @@ form input {
   background: #fafbfc;
   border: 2px solid #ed1c24;
   border-radius: 3px;
-  /* visibility: hidden; */
 }
 
 form input:focus {
@@ -501,7 +501,7 @@ font-family: 'Poppins', sans-serif; */
 }
 
 .newsletter-top-black {
-  top: 694px;
+  top: 682px;
   left: 130px;
 }
 
