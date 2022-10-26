@@ -6,20 +6,20 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  width: 100vw;
+  /* width: 100vw; */
   height: auto;
   background: #1e1e1e;
 }
 main {
   position: relative;
-  width: 1127px;
+  /* width: 1127px; */
   background: #ffffff;
   margin: 0 auto;
 }
 
 header {
   height: 85px;
-  margin: 0 79px;
+  margin: 0 7%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -59,14 +59,14 @@ li {
   z-index: 0;
 }
 
-.td_section1 div {
+.td_section1 .section1_div {
   margin-bottom: 82px;
   display: flex;
   flex-direction: column;
   gap: 20px;
   text-align: left;
   justify-content: flex-end;
-  margin-left: 65px;
+  margin-left: 5.77%;
 }
 
 .td_section1 h1 {
@@ -156,7 +156,7 @@ li {
 
 .features {
   position: relative;
-  padding: 59px 108px;
+  padding: 59px 11.4%;
   height: 1163px;
   display: flex;
   flex-direction: column;
@@ -281,11 +281,14 @@ li {
 .iphone_container {
   position: relative;
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  padding-right: 12.9%;
+  padding-left: 6%;
 }
 
 .iphone_location_img {
-  margin: 66px 59px 51.39px 65px;
+  margin: 66px 0 65px;
 }
 
 .locate_fast {
@@ -429,6 +432,7 @@ footer ul {
 .terms {
   display: flex;
   justify-content: center;
+  gap: 16px;
 }
 
 /* font-family: 'Inter', sans-serif;
@@ -437,11 +441,9 @@ font-family: 'Poppins', sans-serif; */
 }
 
 .newsletter {
+  width: 100%;
   display: inline-block;
-  z-index: 100;
-  position: absolute;
-  bottom: 355px;
-  left: 374px;
+  justify-self: center;
 }
 
 .display-none {
@@ -501,6 +503,8 @@ font-family: 'Poppins', sans-serif; */
 }
 
 .newsletter-top-black {
+  display: inline-block;
+
   top: 682px;
   left: 130px;
 }
