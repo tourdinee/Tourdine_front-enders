@@ -17,19 +17,19 @@ function countdown() {
   /* converting timeLeft(milliseconds) to day-hour-minute-seconds time format*/
   const daysInTime =
     Math.floor(timeLeft / day) < 10
-      ? "0" + Math.floor(timeLeft / day)
+      ?Math.abs( Math.floor(timeLeft / day)).toString().padStart(2,0)
       : Math.floor(timeLeft / day);
   const hoursInTime =
     Math.floor((timeLeft % day) / hour) < 10
-      ? "0" + Math.floor((timeLeft % day) / hour)
+      ? Math.abs( Math.floor((timeLeft % day) / hour)).toString().padStart(2,0)
       : Math.floor((timeLeft % day) / hour);
   const minutesInTime =
     Math.floor((timeLeft % hour) / minute) < 10
-      ? "0" + Math.floor((timeLeft % hour) / minute)
+      ?  Math.abs(Math.floor((timeLeft % hour) / minute)).toString().padStart(2,0)
       : Math.floor((timeLeft % hour) / minute);
   const secondsInTime =
     Math.floor((timeLeft % minute) / seconds) < 10
-      ? "0" + Math.floor((timeLeft % minute) / seconds)
+      ? Math.abs( Math.floor((timeLeft % minute) / seconds)).toString().padStart(2,0)
       : Math.floor((timeLeft % minute) / seconds);
   countDay.innerHTML = daysInTime;
   countHour.innerHTML = hoursInTime;
