@@ -437,7 +437,14 @@ footer ul {
 
 /* font-family: 'Inter', sans-serif;
 font-family: 'Poppins', sans-serif; */
-@media screen and (max-width: 1700px) {
+@media screen and (max-width: 1100px) {
+  body {
+    width: 100vw;
+  }
+  main {
+    position: relative;
+    width: 1127px;
+  }
 }
 
 .newsletter {
