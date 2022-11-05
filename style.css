@@ -350,6 +350,12 @@ footer ul {
   display: none;
 }
 
+.display {
+  margin-top: 147px;
+  margin-right: 6.04%;
+  z-index: 1;
+}
+
 .display2 {
   display: block;
 }
