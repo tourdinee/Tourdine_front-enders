@@ -141,6 +141,11 @@ li,
   z-index: 1;
 }
 
+.display1 {
+  position: absolute;
+  visibility: hidden;
+}
+
 .rating-card {
   display: flex;
   flex-direction: column;
@@ -346,11 +351,6 @@ footer ul {
   gap: 16px;
 }
 
-.display1 {
-  position: absolute;
-  visibility: hidden;
-}
-
 .bg {
   display: none;
 }
@@ -448,6 +448,7 @@ h1 {
   .display1 {
     position: relative;
     visibility: visible;
+    z-index: 2;
   }
 
   .h1,
