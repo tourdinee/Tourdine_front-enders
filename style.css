@@ -347,17 +347,8 @@ footer ul {
 }
 
 .display1 {
-  display: none;
-}
-
-.display {
-  margin-top: 147px;
-  margin-right: 6.04%;
-  z-index: 1;
-}
-
-.display2 {
-  display: block;
+  position: absolute;
+  visibility: hidden;
 }
 
 .bg {
@@ -450,12 +441,13 @@ h1 {
   }
 
   .display2 {
-    display: none;
+    position: absolute;
+    visibility: hidden;
   }
 
   .display1 {
-    display: block;
-    margin-right: 0;
+    position: relative;
+    visibility: visible;
   }
 
   .h1,
