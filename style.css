@@ -449,6 +449,8 @@ h1 {
     position: relative;
     visibility: visible;
     z-index: 2;
+    height: 786px;
+    width: 428px;
   }
 
   .h1,
