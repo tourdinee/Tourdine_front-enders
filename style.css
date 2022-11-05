@@ -104,6 +104,7 @@ li,
   position: relative;
   display: flex;
   flex-direction: column;
+  height: 1123px;
 }
 
 .features h2 {
@@ -395,14 +396,14 @@ h1 {
     margin-right: 0;
   }
 
+  .features h3 {
+    margin-left: 108px;
+  }
+
   .features div {
     padding-left: 10.14%;
     padding-right: 13.82%;
     justify-content: space-between;
-  }
-
-  .display {
-    margin-right: 0;
   }
 
   .features h2 {
@@ -447,6 +448,7 @@ h1 {
   }
   .display1 {
     display: block;
+    margin-right: 0;
   }
 
   .h1,
