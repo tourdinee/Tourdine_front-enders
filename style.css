@@ -440,7 +440,7 @@ h1 {
     display: block;
   }
 
-  .display2 {
+  /* .display2 {
     position: absolute;
     visibility: hidden;
   }
@@ -451,7 +451,7 @@ h1 {
     z-index: 2;
     height: 786px;
     width: 428px;
-  }
+  } */
 
   .h1,
   .h2 {
